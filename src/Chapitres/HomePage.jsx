@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar.jsx"
 import Hero from "./Components/Hero.jsx"
+import HomeCards from "./Components/HomeCards.jsx"
 
 const HomePage = () => {
     return (
@@ -14,6 +15,9 @@ const HomePage = () => {
             {/* Je déclare une prop nommée title prenant une valeur de type string */}
             {/* <Hero title="Become a React Dev" subtitle="Find the React job that fits your skill set" /> */}
             <Hero />
+
+            {/* Wrapper components */}
+            <HomeCards />
         </>
     )
 }
