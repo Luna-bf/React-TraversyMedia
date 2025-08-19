@@ -2,6 +2,7 @@
 import { useState } from "react"
 import jobs from '../jobs.json'
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const JobListing = ({ job }) => { /* Je passe l'élément job en tant que paramètre à JobListing */
 
@@ -64,7 +65,7 @@ const JobListing = ({ job }) => { /* Je passe l'élément job en tant que param�
 
                         {/* Je met bien un / avant car je veux que mon lien commence à partir de 'jobs', sinon le lien donnera
                             "localhost/jobs/jobs/job.id" */}
-                        <a href={`/jobs/${job.id}`} className="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm">Read more</a>
+                        <Link to={`/jobs/${job.id}`} className="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm">Read more</Link>
                     </div>
                 </div>
             </div>
