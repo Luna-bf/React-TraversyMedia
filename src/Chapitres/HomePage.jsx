@@ -1,6 +1,7 @@
-import Navbar from "./Components/Navbar.jsx"
-import Hero from "./Components/Hero.jsx"
-import HomeCards from "./Components/HomeCards.jsx"
+import Navbar from "./Components/Navbar.jsx";
+import Hero from "./Components/Hero.jsx";
+import HomeCards from "./Components/HomeCards.jsx";
+import JobListings from "./Components/JobListings.jsx";
 
 const HomePage = () => {
     return (
@@ -18,6 +19,8 @@ const HomePage = () => {
 
             {/* Wrapper components */}
             <HomeCards />
+
+            <JobListings />
         </>
     )
 }
