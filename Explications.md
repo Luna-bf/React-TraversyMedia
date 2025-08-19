@@ -1,0 +1,1 @@
+Le dossier pages est, comme son nom l'indique, pour les fichiers de page. Le dossier "layouts" est quant à lui utilisé pour les éléments qui apparaîtront sur plusieurs pages (nav, footer...)
