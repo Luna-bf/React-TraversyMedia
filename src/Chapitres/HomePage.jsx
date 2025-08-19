@@ -1,3 +1,5 @@
+// Importation de plusieurs éléments depuis React router dom (package installé)
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import Navbar from "./Components/Navbar.jsx";
 import Hero from "./Components/Hero.jsx";
 import HomeCards from "./Components/HomeCards.jsx";
