@@ -1,13 +1,13 @@
 // Importation de plusieurs éléments depuis React router dom (package installé)
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
-// import HomePage from './Chapitres/pages/HomePage';
+import HomePage from './pages/HomePage';
 
 const router = createBrowserRouter(
-    createRoutesFromElements(<Route index element={<h1>Hi</h1>} />)
+    createRoutesFromElements(<Route index element={<HomePage />} />)
 );
 
 const App = () => {
-    return <RouterProvider router={router} />
+    return <RouterProvider router={router} />;
 
     // <>
     {/* J'importe le composant Navbar dans le fichier HomePage */ }
@@ -29,4 +29,4 @@ const App = () => {
     // </>
 }
 
-export default App
+export default App;
