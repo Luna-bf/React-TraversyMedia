@@ -2,7 +2,7 @@
 import { useState } from "react"
 import jobs from '../jobs.json'
 import { FaLocationDot } from "react-icons/fa6";
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // Link permet à l'utilisateur de naviguer sur la page web sans que celle-ci ne s'actualise
 
 const JobListing = ({ job }) => { /* Je passe l'élément job en tant que paramètre à JobListing */
 
