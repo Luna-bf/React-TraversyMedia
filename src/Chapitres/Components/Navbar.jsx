@@ -11,9 +11,9 @@ const Navbar = () => {
                 <div className="flex place-content-between items-center">
                     <a href="#" className="ml-2" style={logoWidth}><img src={logo} alt="Logo" style={logoRadius} /></a>
                     <ul className="flex">
-                        <li><a href="#" className="p-5">Accueil</a></li>
-                        <li><a href="#" className="p-5">Témoignages</a></li>
-                        <li><a href="#" className="p-5">Contact</a></li>
+                        <li><a href="#" className="p-5">Home</a></li>
+                        <li><a href="#" className="p-5">Jobs</a></li>
+                        <li><a href="#" className="p-5">Add jobs</a></li>
                     </ul>
                 </div>
             </nav>
