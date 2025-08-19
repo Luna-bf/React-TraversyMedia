@@ -1,6 +1,6 @@
 // J'importe le hook 'useState' depuis React
 import { useState } from "react"
-import jobs from '../../jobs.json'
+import jobs from '../jobs.json'
 import { FaLocationDot } from "react-icons/fa6";
 
 const JobListing = ({ job }) => { /* Je passe l'élément job en tant que paramètre à JobListing */

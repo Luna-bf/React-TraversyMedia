@@ -1,5 +1,5 @@
 // J'importe le fichier json
-import jobs from '../../jobs.json';
+import jobs from '../jobs.json';
 import JobListing from './JobListing';
 
 const JobListings = () => {
